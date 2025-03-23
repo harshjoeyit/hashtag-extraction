@@ -13,7 +13,7 @@ This project demonstrates a simple system for extracting hashtags from a stream 
     > db.createCollection("hashtag")
     ```
 2.  **Configure environment variables:**
-    1. Create a `.env` file in the project root directory. Run RabbitMQ locally or online and add the same connection url in the .env file
+    1. Create a `.env` file in the project root directory. Run RabbitMQ locally or [online](https://customer.cloudamqp.com/instance) and add the same connection url in the .env file
         ```
         QUEUE_URL=<your-queue-url>
         ```
